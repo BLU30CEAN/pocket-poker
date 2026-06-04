@@ -1,0 +1,13 @@
+{
+  "name": "pocket-poker",
+  "private": true,
+  "description": "GTO EV 미니 계산기 — Phase 1 static site",
+  "homepage": "https://blu30cean.github.io/pocket-poker",
+  "scripts": {
+    "start": "npx --yes serve site -l 5500",
+    "deploy": "gh-pages -d site"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
